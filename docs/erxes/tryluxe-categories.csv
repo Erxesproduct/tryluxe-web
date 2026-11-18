@@ -1,0 +1,15 @@
+﻿code,name,parent code
+TL,tryLuxé,
+TL-FULL,Бүтэн хэмжээ,TL
+TL-MINI,Мини үнэртэй ус,TL
+TL-VIAL,Vial тестер,TL
+TL-PETIT,PETIT by tryLuxé,TL
+TL-SET,Бэлгийн багц,TL
+TL-MAKEUP,Нүүр будаг,TL
+TL-SKIN,Арьс арчилгаа,TL
+TL-BODY,Бие арчилгаа,TL
+TL-ACC,"Pouch, аксессуар",TL
+TL-BAG,Мини цүнх,TL
+TL-WRAP,"Бэлгийн уут, хайрцаг",TL
+TL-OTHER,Бусад,TL
+TL-DELIVERY,Хүргэлт,TL
