@@ -66,7 +66,8 @@ export function ProductView({ slug, brand, brandSlug, title, subtitle, variants,
     <>
       <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
         <div className="lg:sticky lg:top-28 lg:self-start">
-          <div className="grid gap-3 md:grid-cols-[76px_1fr]">
+          {/* thumbnail column only when there is more than one photo, otherwise the photo would sit in the 76px column */}
+          <div className={`grid gap-3 ${photos.length > 1 ? "md:grid-cols-[76px_1fr]" : ""}`}>
             <div className="stage relative aspect-square md:order-2">
               {photos[shot] && <Image key={photos[shot]} src={large(photos[shot])} alt={`${brand ?? ""} ${title} ${v.label}`} fill priority sizes="(min-width: 1024px) 52vw, 100vw" className="pop-in object-contain p-[8%]" />}
             </div>
